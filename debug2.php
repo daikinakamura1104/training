@@ -51,7 +51,6 @@ class MechaDog extends Dog
     else if(count($path) == 2){
       $this->data[$path[0]] = $path[1];
       echo $path[1] . PHP_EOL;
-      var_dump('----------5-----------');
     }
     else {
       echo $path[0] . "=>" . $this->data[$path[0]] . PHP_EOL;
